@@ -1,0 +1,56 @@
+body {
+    display: block;
+    background: burlywood;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    border: solid red;
+    border-radius: 3px;
+    background: white;
+    width: 750px;
+    margin: 15px auto;
+    padding: 10px;
+}
+#buttons {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+button {
+    border: solid red;
+    border-radius: 3px;
+    background: white;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+#container {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#board {
+    display: grid;
+    width: 440px;
+    height: 440px;
+    border: solid red;
+    background: white;
+    margin: 10px auto;
+}
+
+.box:hover {
+    background: black;
+}
